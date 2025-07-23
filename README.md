@@ -83,8 +83,12 @@ I'm Rithika, a final-year B.Tech IT student passionate about AI and web developm
 This project was built as a part of my academic and personal learning journey.
 Feel free to fork it, use it, or suggest improvements!
 
-📫 Connect with me on LinkedIn
-🌐 Portfolio: 
+🙏 Acknowledgements
+
+Microsoft TrOCR Model
+Hugging Face Transformers
+Flask Framework
+OpenCV, Python, and the open-source community 💛
 
 
 
