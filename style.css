@@ -1,0 +1,91 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Background Styling */
+body {
+    background: url('/static/image.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Main Container - Translucent & Spacious */
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Translucent black */
+    backdrop-filter: blur(10px); /* Glassmorphism Effect */
+    padding: 40px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 550px;
+    text-align: center;
+    border: 2px solid #B799FF; /* Soft Violet Border */
+}
+
+/* Heading - Light Purple */
+h1 {
+    font-size: 32px;
+    color: #D8B9FF; /* Light Purple */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+/* File Input */
+input[type="file"] {
+    background: none;
+    border: 2px solid #B799FF; /* Soft Violet */
+    padding: 12px;
+    color: #E0AFFF; /* Bright Purple */
+    margin-bottom: 25px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Buttons - Dark Purple Gradient */
+button {
+    background: linear-gradient(145deg, #5A189A, #9D4EDD); /* Dark Purple Gradient */
+    color: white;
+    border: 1px solid #E0AFFF; /* Bright Purple Border */
+    padding: 14px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #7B2CBF, #B799FF); /* Soft Violet Hover */
+    transform: scale(1.05);
+}
+
+/* Status & Output - Bright Purple for Contrast */
+#status, #output {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E0AFFF; /* Bright Purple */
+}
+
+/* Input Styling */
+input[type="file"]:hover {
+    border-color: #7B2CBF;
+}
+
+/* Button Spacing */
+button + button {
+    margin-top: 12px;
+}
